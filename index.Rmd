@@ -53,9 +53,9 @@ Aside
 ```{r}
 # When in export mode the little dots are unaligned, so fix that. 
 if(PDF_EXPORT){
-  cat("View this CV online with links at _nickstrayer.me/cv_")
+  cat("")
 } else {
-  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/nstrayer/cv/raw/master/strayer_cv.pdf)")
+  cat("[<i class='fas fa-download'></i> Download a PDF of this CV]()")
 }
 ```
 
@@ -75,7 +75,7 @@ Contact {#contact}
 - http://tinyurl.com/y7m6zle7
 
 
-
+<!--
 Language Skills {#contact}
 --------------------------------------------------------------------------------
 
@@ -93,14 +93,12 @@ skills <- tribble(
 
 build_skill_bars(skills)
 ```
-
+--->
 
 Disclaimer {#contact}
 --------------------------------------------------------------------------------
 
-Made with the R package [**pagedown**](https://github.com/rstudio/pagedown).
-
-The source code is available at []().
+The source code for this CV is available on [github]().
 
 Last updated on `r Sys.Date()`.
 
@@ -115,11 +113,13 @@ Adam Cribbs {#title}
 
 
 ```{r}
-intro_text <- "I completed my Ph.D. in molecular T cell immunology at Imperial College London in May 2013 and, after a two-year period of working as a post-doctoral scientist investigating the epigenetics of T cell activation at the University of Oxford; I was successful at applying for a highly competitive 3 year MRC Fellowship in Computational Biology (Computational Genomics and Training Centre (CGAT) program), also at the University of Oxford.
+intro_text <- "I lead a Computational biology group with a broad interest in systems biology, immunology and epigenetics. My group is also heavily focused on developing novel multiplexed single-cell technology. Using this technology, uur goal is to understand how cellular heterogeneity encodes epigenetic function and regulation in complex biological systems. 
 
-As a result of my extensive computational training at CGAT, I have developed a number of core competencies in statistics, mathematics and software development, enabling the difficult analysis and interpretation of next-generation sequencing data. It was during this time that I developed a strong appreciation of the power of combining different 'omics' datasets to facilitate drug discovery. As such, I have been involved in a number of collaborations across a wide range of disease models to identify potentially druggable targets using systems biology tools.
+I lead a number of single-cell projects, of which the Tendon Seed Network, part of the Human Cell Atlas (HCA), is the largest. The aim of the Tendon Seed Network is to develop clinical, biological and computational single-cell sequencing workflows to investigate the cell composition of tendon. Specifically, using spatial transcriptomics, imaging and single-cell nuclear RNA-seq we  are building the worldfs first map of the healthy Human tendon. This project is one of only two HCA initiatives established within the University of Oxford, and the only UK funded Chan Zuckerberg Initiative (CZI) funded scheme.  
 
-Following the completion of my MRC fellowship I was appointed group leader in systems biology at the Botnar research Centre. 
+My background is as a molecular immunologist, having completed a Ph.D. at Imperial College London in May 2013. Following a brief wet-lab postdoctoral position within the University of Oxford, I undertook a highly competitive 3 year MRC Fellowship in Computational Biology (at the Computational Genomics and Training Centre (CGAT) ), also at the University of Oxford.
+
+As a result of my extensive computational training at CGAT, I have developed a number of core competencies in statistics, mathematics and software development, enabling the difficult analysis and interpretation of next-generation sequencing data. Following the completion of my fellowship I was appointed group leader in systems biology at the Botnar research Centre, University of Oxford. 
 "
 
 cat(sanitize_links(intro_text))
@@ -162,7 +162,7 @@ print_section(position_data, 'presentations')
 <br>
 --->
 
-Funding {data-icon=chalkboard-teacher}
+Funding {data-icon=laptop}
 --------------------------------------------------------------------------------
 
 
@@ -171,7 +171,7 @@ print_section(position_data, 'funding')
 ```
 
 
-Patents {data-icon=chalkboard-teacher}
+Patents {data-icon=money}
 --------------------------------------------------------------------------------
 
 
