@@ -27,7 +27,7 @@ links <- c()
 source('parsing_functions.R')
 
 # Load csv with position info
-position_data <- read_csv('positions.csv')
+position_data <- read_csv('positions2.csv')
 ```
 
 
@@ -161,6 +161,15 @@ print_section(position_data, 'presentations')
 <br>
 <br>
 --->
+
+Funding {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+
+
+```{r}
+print_section(position_data, 'funding')
+```
+
 
 Patents {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
