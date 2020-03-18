@@ -98,7 +98,7 @@ build_skill_bars(skills)
 Disclaimer {#contact}
 --------------------------------------------------------------------------------
 
-The source code for this CV is available on [github]().
+The source code for this CV is available on [github](https://github.com/Acribbs/cribbs_cv).
 
 Last updated on `r Sys.Date()`.
 
@@ -113,9 +113,9 @@ Adam Cribbs {#title}
 
 
 ```{r}
-intro_text <- "I lead a Computational biology group with a broad interest in systems biology, immunology and epigenetics. My group is also heavily focused on developing novel multiplexed single-cell technology. Using this technology, uur goal is to understand how cellular heterogeneity encodes epigenetic function and regulation in complex biological systems. 
+intro_text <- "I lead a Computational biology group with a broad interest in systems biology, immunology and epigenetics. My group is also heavily focused on developing novel multiplexed single-cell technology. Using this technology, our goal is to understand how cellular heterogeneity encodes epigenetic function and regulation in complex biological systems. 
 
-I lead a number of single-cell projects, of which the Tendon Seed Network, part of the Human Cell Atlas (HCA), is the largest. The aim of the Tendon Seed Network is to develop clinical, biological and computational single-cell sequencing workflows to investigate the cell composition of tendon. Specifically, using spatial transcriptomics, imaging and single-cell nuclear RNA-seq we  are building the worldfs first map of the healthy Human tendon. This project is one of only two HCA initiatives established within the University of Oxford, and the only UK funded Chan Zuckerberg Initiative (CZI) funded scheme.  
+I lead a number of single-cell projects, of which the Tendon Seed Network, part of the Human Cell Atlas (HCA), is the largest. The aim of the Tendon Seed Network is to develop clinical, biological and computational single-cell sequencing workflows to investigate the cell composition of tendon. Specifically, using spatial transcriptomics, imaging and single-cell nuclear RNA-seq we are building the worlds first map of the healthy Human tendon. This project is one of only two HCA initiatives established within the University of Oxford, and the only UK funded Chan Zuckerberg Initiative (CZI) funded scheme.  
 
 My background is as a molecular immunologist, having completed a Ph.D. at Imperial College London in May 2013. Following a brief wet-lab postdoctoral position within the University of Oxford, I undertook a highly competitive 3 year MRC Fellowship in Computational Biology (at the Computational Genomics and Training Centre (CGAT) ), also at the University of Oxford.
 
