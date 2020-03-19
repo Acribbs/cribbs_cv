@@ -117,7 +117,7 @@ intro_text <- "I lead a computational biology team with a broad interest in syst
 
 I am responsible for running a number of computational single-cell projects, of which the [Tendon Seed Network](https://chanzuckerberg.com/science/programs-resources/humancellatlas/seednetworks/the-tendon-seed-network/), part of the Human Cell Atlas (HCA), is the largest. The aim of the Tendon Seed Network is to develop clinical, biological and computational single-cell sequencing workflows to investigate the cell composition of tendon. Specifically, using spatial transcriptomics, imaging and single-cell nuclear RNA-seq we are building the worlds first map of the healthy Human tendon. This project is one of only two HCA initiatives established within the University of Oxford, and the only UK based Chan Zuckerberg Initiative (CZI) funded scheme.  
 
-My background is as a molecular immunologist, having completed a Ph.D. at Imperial College London in May 2013. Following a brief wet-lab postdoctoral position within the Oppermann group, University of Oxford, I undertook a highly competitive 3 year MRC Fellowship in Computational Biology (at the Computational Genomics and Training Centre (CGAT)), also at the University of Oxford.
+My background is as a molecular immunologist, having completed a Ph.D. at Imperial College London in May 2013. Following a brief wet-lab postdoctoral position within the Oppermann group, University of Oxford, I undertook a highly competitive 3-year MRC Fellowship in Computational Biology (at the Computational Genomics and Training Centre (CGAT)), also at the University of Oxford.
 
 As a result of my extensive computational training at CGAT, I have developed a number of core competencies in statistics, mathematics and software development, enabling the difficult analysis and interpretation of next-generation sequencing data. Following the completion of my fellowship I was appointed group leader in systems biology at the Botnar research Centre, University of Oxford. 
 "
@@ -127,7 +127,7 @@ cat(sanitize_links(intro_text))
 
 
 
-Education/Employment {data-icon=graduation-cap data-concise=true}
+Education/Employment {data-icon=dot data-concise=true}
 --------------------------------------------------------------------------------
 
 ```{r}
@@ -162,7 +162,7 @@ print_section(position_data, 'presentations')
 <br>
 --->
 
-Funding {data-icon=laptop}
+Funding {data-icon=dot}
 --------------------------------------------------------------------------------
 
 
@@ -171,7 +171,7 @@ print_section(position_data, 'funding')
 ```
 
 
-Patents {data-icon=money}
+Patents {data-icon=dot}
 --------------------------------------------------------------------------------
 
 
@@ -181,13 +181,27 @@ print_section(position_data, 'patents')
 
 
 
-Publications {data-icon=book}
+First/lead author Publications {data-icon=dot}
+--------------------------------------------------------------------------------
+
+```{r}
+print_section(position_data, 'academic_articles_1')
+```
+
+Publications {data-icon=dot}
 --------------------------------------------------------------------------------
 
 ```{r}
 print_section(position_data, 'academic_articles')
 ```
 
+
+BioRxiv Publications {data-icon=dot}
+--------------------------------------------------------------------------------
+
+```{r}
+print_section(position_data, 'biorxiv')
+```
 
 
 ```{r}

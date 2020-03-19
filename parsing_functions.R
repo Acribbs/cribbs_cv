@@ -44,6 +44,8 @@ strip_links_from_cols <- function(data, cols_to_strip){
   data
 }
 
+
+
 # Take a position dataframe and the section id desired
 # and prints the section to markdown. 
 print_section <- function(position_data, section_id){
