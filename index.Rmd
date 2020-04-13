@@ -5,7 +5,7 @@ date: "`r Sys.Date()`"
 output:
   pagedown::html_resume:
     css: ['css/styles.css', 'resume']
-    # set it to true for a self-contained HTML page but it'll take longer to render
+    # set it to true for a self-containeœd HTML page but it'll take longer to render
     self_contained: true
 ---
 
@@ -75,8 +75,8 @@ Contact {#contact}
 - http://tinyurl.com/y7m6zle7
 
 
-<!--
-Language Skills {#contact}
+
+Language Skills {#language-skills}
 --------------------------------------------------------------------------------
 
 ```{r}
@@ -93,9 +93,9 @@ skills <- tribble(
 
 build_skill_bars(skills)
 ```
---->
 
-Disclaimer {#contact}
+
+Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
 The source code for this CV is available on [github](https://github.com/Acribbs/cribbs_cv).
